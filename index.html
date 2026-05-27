@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason Zigault | Portfolio</title>
+    <meta name="description" content="Portfolio de Jason Zigault, étudiant en BTS SIO option SLAM.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <canvas id="particles-global"></canvas>
+
+    <header>
+        <nav class="container">
+            <a href="#accueil" class="logo">
+                Jason Zigault <span>BTS SIO • SLAM</span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#parcours">Parcours</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-new" id="accueil">
+            <div class="hero-content container">
+                <p class="hero-top">PORTFOLIO PERSONNEL</p>
+                <h1>Jason Zigault</h1>
+                <h2>Étudiant en BTS SIO option SLAM</h2>
+
+                <p class="hero-desc">
+                    <span id="typed-text"></span><span class="cursor">|</span>
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="profil">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-subtitle">PROFIL</p>
+                    <h2 class="section-title">Présentation</h2>
+                    <p class="section-text">
+                        Étudiant en BTS SIO, option SLAM, avec une orientation vers le développement,
+                        les bases de données, la maintenance et l’administration système.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="card">
+                        <h3>À propos</h3>
+
+                        <div class="about-text">
+                            <p>
+                                Je développe progressivement mes compétences en programmation, développement web,
+                                Java, SQL et environnement système.
+                            </p>
+                            <p>
+                                Mon objectif est d’évoluer vers des domaines exigeants de l’informatique,
+                                en particulier l’intelligence artificielle et la cybersécurité.
+                            </p>
+                            <p>
+                                J’accorde de l’importance à la rigueur, à l’apprentissage continu
+                                et à la polyvalence technique.
+                            </p>
+                        </div>
+
+                        <a href="CV Jason Zigault .pdf" class="btn btn-primary" target="_blank">
+                             Consulter Mon CV
+                         </a>
+                    </div>
+
+                    <div class="card info-card">
+                        <h3>Informations</h3>
+
+                        <div class="info-list">
+                            <div class="info-item">
+                                <span class="info-label">Nom</span>
+                                <span class="info-value">Jason Zigault</span>
+                            </div>
+
+                            <div class="info-item">
+                                <span class="info-label">Formation</span>
+                                <span class="info-value">BTS SIO SLAM</span>
+                            </div>
+
+                            <div class="info-item">
+                                <span class="info-label">Spécialités</span>
+                                <span class="info-value">HTML, CSS, JavaScript, C#, SQL</span>
+                            </div>
+
+                            <div class="info-item">
+                                <span class="info-label">Systèmes</span>
+                                <span class="info-value">Windows, Linux</span>
+                            </div>
+
+                            <div class="info-item">
+                                <span class="info-label">Objectif</span>
+                                <span class="info-value">IA / Cybersécurité</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="parcours">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-subtitle">PARCOURS</p>
+            <h2 class="section-title">Formation & expérience</h2>
+            <p class="section-text">
+                Un parcours séparé entre formation scolaire et expériences professionnelles.
+            </p>
+        </div>
+
+        <div class="parcours-grid">
+            <div class="parcours-column">
+                <h3 class="parcours-category scolaire">Parcours scolaire</h3>
+
+                <div class="parcours-card scolaire">
+                    <span class="parcours-date">Aujourd’hui</span>
+                    <h4>BTS SIO — option SLAM / CNED</h4>
+                    <p class="parcours-place">Services Informatiques aux Organisations</p>
+                    <p>
+                        Formation centrée sur le développement d’applications, la gestion de bases de données,
+                        le web, les scripts, les systèmes et la résolution de problèmes techniques.
+                    </p>
+                </div>
+
+                <div class="parcours-card scolaire">
+                    <span class="parcours-date">Avant le BTS</span>
+                    <h4>Bac Pro SN - Option (RISC) / Lycée Saint-Nicolas</h4>
+                    <p class="parcours-place">Réseaux informatiques et systèmes communicants</p>
+                    <p>
+                        Construction progressive d’une base en informatique, logique, outils numériques
+                        et méthode de travail.
+                    </p>
+                </div>
+            </div>
+
+            <div class="parcours-column">
+                <h3 class="parcours-category pro">Parcours professionnel</h3>
+
+                <div class="parcours-card pro">
+                    <span class="parcours-date">Stage</span>
+                    <h4>Stage de BTS SIO première et deuxième année</h4>
+                    <p class="parcours-place">Développement Web</p>
+                    <p class="parcours-place">Entreprise : Art Freedom</p>
+                    <p> Développement et amélioration de solutions informatiques en environnement réel, incluant l’intégration de fonctionnalités web, la manipulation de bases de données et la réalisation de tests techniques. Participation à la maintenance applicative, analyse des besoins utilisateurs et mise en œuvre de solutions adaptées. Expérience concrète du travail en équipe, de l’organisation de projet et du respect des contraintes professionnelles.</p>
+                </div>
+
+                <div class="parcours-card pro">
+                    <span class="parcours-date">Stage</span>
+                    <h4>Stage de première année de bac pro SN</h4>
+                    <p class="parcours-place">Montage et Maintenance de site web</p>
+                    <p class="parcours-place">Entreprise : FIA (Foire Internationale Africaine)</p>
+                    <p>
+                        Réalisation de missions en montage vidéo et photo, participation à la création de contenus visuels et contribution à la mise à jour ainsi qu’à la maintenance de sites web. Développement de compétences techniques en production multimédia et en environnement numérique.
+                    </p>
+                    
+                </div>
+                <div class="parcours-card pro">
+                    <span class="parcours-date">Stage</span>
+                    <h4>Stage de deuxième année de bac pro SN</h4>
+                    <p class="parcours-place">Dépannage Informatique</p>
+                    <p>
+                        Réalisation de missions en dépannage informatique, incluant le support technique, le diagnostic de pannes, le montage et le reconditionnement d’ordinateurs. Contribution à des activités de montage vidéo et à la maintenance générale du matériel.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="competences">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-subtitle">COMPÉTENCES</p>
+            <h2 class="section-title">Compétences techniques</h2>
+            <p class="section-text">
+                Mes technologies, frameworks et outils utilisés ou en cours d’apprentissage.
+            </p>
+        </div>
+
+        <div class="skills-marquee-wrapper">
+
+            <!-- Développement Web & App -->
+            <div class="skills-category-block">
+                <h3 class="skills-category-title">Développement Web & App</h3>
+
+                <div class="skills-marquee">
+                    <div class="skills-track">
+                        <div class="skill-logo"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+                        <div class="skill-logo"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+                        <div class="skill-logo"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+                        <div class="skill-logo"><i class="devicon-php-plain colored"></i><span>PHP</span></div>
+                        <div class="skill-logo"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+                        <div class="skill-logo"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+                        <div class="skill-logo"><i class="devicon-mysql-plain colored"></i><span>SQL</span></div>
+                        <div class="skill-logo"><i class="devicon-csharp-plain colored"></i><span>C#</span></div>
+                        <div class="skill-logo"><i class="devicon-cplusplus-plain colored"></i><span>C++</span></div>
+
+                        <div class="skill-logo"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+                        <div class="skill-logo"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+                        <div class="skill-logo"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+                        <div class="skill-logo"><i class="devicon-php-plain colored"></i><span>PHP</span></div>
+                        <div class="skill-logo"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+                        <div class="skill-logo"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+                        <div class="skill-logo"><i class="devicon-mysql-plain colored"></i><span>SQL</span></div>
+                        <div class="skill-logo"><i class="devicon-csharp-plain colored"></i><span>C#</span></div>
+                        <div class="skill-logo"><i class="devicon-cplusplus-plain colored"></i><span>C++</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Frameworks & Bibliothèques -->
+            <div class="skills-category-block">
+                <h3 class="skills-category-title">Frameworks & Bibliothèques</h3>
+
+                <div class="skills-marquee">
+                    <div class="skills-track">
+                        <div class="skill-logo"><i class="devicon-laravel-original colored"></i><span>Laravel</span></div>
+                        <div class="skill-logo"><i class="devicon-spring-original colored"></i><span>Spring Boot</span></div>
+                        <div class="skill-logo"><i class="devicon-spring-original colored"></i><span>Spring Security</span></div>
+                        <div class="skill-logo"><i class="devicon-java-plain colored"></i><span>JavaFX</span></div>
+                        <div class="skill-logo"><i class="devicon-react-original colored"></i><span>React</span></div>
+                        <div class="skill-logo"><i class="devicon-tailwindcss-original colored"></i><span>Tailwind</span></div>
+
+                        <div class="skill-logo"><i class="devicon-laravel-original colored"></i><span>Laravel</span></div>
+                        <div class="skill-logo"><i class="devicon-spring-original colored"></i><span>Spring Boot</span></div>
+                        <div class="skill-logo"><i class="devicon-spring-original colored"></i><span>Spring Security</span></div>
+                        <div class="skill-logo"><i class="devicon-java-plain colored"></i><span>JavaFX</span></div>
+                        <div class="skill-logo"><i class="devicon-react-original colored"></i><span>React</span></div>
+                        <div class="skill-logo"><i class="devicon-tailwindcss-original colored"></i><span>Tailwind</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Outils & Environnement -->
+            <div class="skills-category-block">
+                <h3 class="skills-category-title">Outils & Environnement</h3>
+
+                <div class="skills-marquee">
+                    <div class="skills-track">
+                        <div class="skill-logo"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+                        <div class="skill-logo"><i class="devicon-github-original colored"></i><span>GitHub</span></div>
+                        <div class="skill-logo"><i class="devicon-vscode-plain colored"></i><span>VS Code</span></div>
+                        <div class="skill-logo"><i class="devicon-intellij-plain colored"></i><span>IntelliJ</span></div>
+                        <div class="skill-logo"><i class="devicon-eclipse-plain colored"></i><span>Eclipse</span></div>
+                        <div class="skill-logo"><i class="devicon-linux-plain colored"></i><span>Linux</span></div>
+                        <div class="skill-logo"><i class="devicon-windows11-original colored"></i><span>Windows</span></div>
+                        <div class="skill-logo"><i class="devicon-ubuntu-plain colored"></i><span>VM / Ubuntu</span></div>
+                        <div class="skill-logo"><i class="devicon-aftereffects-plain colored"></i><span>aftereffects</span></div>
+                        <div class="skill-logo"><img src="image/Microsoft_Excel_2013-2019_logo.svg.png" height="40"><span>Excel</span></div>
+                        <div class="skill-logo"><img src="image/Microsoft_Office_Word_(2019–2025).svg.png" height="40"><span>Word</span></div>
+                        <div class="skill-logo"><img src="image/Microsoft_Office_PowerPoint_(2019–2025).svg.png" height="40"><span>PowerPoint</span></div>
+                        
+
+                        <div class="skill-logo"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+                        <div class="skill-logo"><i class="devicon-github-original colored"></i><span>GitHub</span></div>
+                        <div class="skill-logo"><i class="devicon-vscode-plain colored"></i><span>VS Code</span></div>
+                        <div class="skill-logo"><i class="devicon-intellij-plain colored"></i><span>IntelliJ</span></div>
+                        <div class="skill-logo"><i class="devicon-eclipse-plain colored"></i><span>Eclipse</span></div>
+                        <div class="skill-logo"><i class="devicon-linux-plain colored"></i><span>Linux</span></div>
+                        <div class="skill-logo"><i class="devicon-windows11-original colored"></i><span>Windows</span></div>
+                        <div class="skill-logo"><i class="devicon-ubuntu-plain colored"></i><span>VM / Ubuntu</span></div>
+                        <div class="skill-logo"><i class="devicon-aftereffects-plain colored"></i><span>aftereffects</span></div>
+                        <div class="skill-logo"><img src="image/Microsoft_Excel_2013-2019_logo.svg.png" height="40"><span>Excel</span></div>
+                        <div class="skill-logo"><img src="image/Microsoft_Office_Word_(2019–2025).svg.png" height="40"><span>Word</span></div>
+                        <div class="skill-logo"><img src="image/Microsoft_Office_PowerPoint_(2019–2025).svg.png" height="40"><span>PowerPoint</span></div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        <section id="projets">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-subtitle">PROJETS</p>
+                    <h2 class="section-title">Sélection de projets</h2>
+                    <p class="section-text">
+                        Des espaces dédiés pour présenter tes travaux scolaires, personnels et futurs projets techniques.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+    <article class="project-card">
+        <div class="project-top">
+            <span class="project-badge">Web</span>
+            <span class="project-type">Projet scolaire</span>
+        </div>
+
+        <h3>Portfolio personnel</h3>
+        <p>
+            Création d’un portfolio moderne en HTML, CSS et JavaScript avec navigation fluide,
+            sections dédiées et identité visuelle professionnelle.
+        </p>
+        <div class="project-links">
+            <a href="#" class="project-link">Voir le projet</a>
+            <a href="#" class="project-link">Code source</a>
+        </div>
+    </article>
+
+    <article class="project-card">
+        <div class="project-top">
+            <span class="project-badge">Java</span>
+            <span class="project-type">Projet scolaire</span>
+        </div>
+
+        <h3>Projet Java</h3>
+        <p>
+            Emplacement pour présenter une application console ou orientée objet réalisée en formation
+            ou en autonomie.
+        </p>
+        <div class="project-links">
+            <a href="#" class="project-link">Voir le projet</a>
+            <a href="#" class="project-link">Documentation</a>
+        </div>
+    </article>
+
+    <article class="project-card">
+        <div class="project-top">
+            <span class="project-badge">SQL / Système</span>
+            <span class="project-type">Projet scolaire</span>
+        </div>
+
+        <h3>Projet base de données</h3>
+        <p>
+            Emplacement pour détailler un travail autour de SQL, de la modélisation
+            ou d’un environnement technique.
+        </p>
+        <div class="project-links">
+            <a href="#" class="project-link">Voir le projet</a>
+            <a href="#" class="project-link">Détails</a>
+        </div>
+    </article>
+
+    <article class="project-card">
+        <div class="project-top">
+            <span class="project-badge">PHP / Web</span>
+            <span class="project-type">Projet pro</span>
+        </div>
+
+        <h3>Projet Art Freedom</h3>
+        <p>
+            Projet réalisé en environnement professionnel avec participation au développement web,
+            à la maintenance applicative et à l’amélioration de fonctionnalités existantes.
+        </p>
+        <div class="project-links">
+            <a href="#" class="project-link">Voir le projet</a>
+            <a href="#" class="project-link">Détails</a>
+        </div>
+    </article>
+
+    <article class="project-card">
+        <div class="project-top">
+            <span class="project-badge">C#</span>
+            <span class="project-type">Projet scolaire</span>
+        </div>
+
+        <h3>Application C#</h3>
+        <p>
+            Emplacement pour présenter une application développée en C#, avec interface graphique,
+            authentification, base de données ou logique métier.
+        </p>
+        <div class="project-links">
+            <a href="#" class="project-link">Voir le projet</a>
+            <a href="#" class="project-link">Documentation</a>
+        </div>
+    </article>
+
+    <article class="project-card">
+        <div class="project-top">
+            <span class="project-badge">Android</span>
+            <span class="project-type">Projet scolaire</span>
+        </div>
+
+        <h3>Application Android</h3>
+        <p>
+            Emplacement pour présenter une application mobile réalisée avec Android Studio,
+            intégrant une interface utilisateur, des appels API ou une gestion de données.
+        </p>
+        <div class="project-links">
+            <a href="#" class="project-link">Voir le projet</a>
+            <a href="#" class="project-link">Détails</a>
+        </div>
+    </article>
+</div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-subtitle">CONTACT</p>
+                    <h2 class="section-title">Me contacter</h2>
+                    <p class="section-text">
+                        Pour un stage, une alternance, une opportunité ou un échange professionnel.
+                    </p>
+                </div>
+
+                <div class="contact-wrapper">
+                    <div class="contact-card">
+                        <h3>Coordonnées</h3>
+                        <ul class="contact-list">
+                            <li><strong>Email :</strong> zigault11@gmail.com</li>
+                            <li><strong>Numéro :</strong> 07 78 66 79 00</li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-form">
+                        <h3>Message</h3>
+                        <form>
+                            <input type="text" placeholder="Votre nom">
+                            <input type="email" placeholder="Votre email">
+                            <textarea placeholder="Votre message"></textarea>
+                            <button type="submit" class="btn btn-primary">Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Jason Zigault — Portfolio personnel</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

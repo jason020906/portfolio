@@ -131,3 +131,28 @@ function typeEffect() {
 }
 
 typeEffect();
+
+/* FILTRES PAGE PROJETS */
+const filterButtons = document.querySelectorAll("[data-filter]");
+const projectShowcaseCards = document.querySelectorAll("[data-category]");
+
+if (filterButtons.length > 0 && projectShowcaseCards.length > 0) {
+    filterButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            const selectedFilter = button.dataset.filter;
+
+            filterButtons.forEach(btn => btn.classList.remove("active"));
+            button.classList.add("active");
+
+            projectShowcaseCards.forEach(card => {
+                const cardCategory = card.dataset.category;
+
+                if (selectedFilter === "all" || selectedFilter === cardCategory) {
+                    card.style.display = "flex";
+                } else {
+                    card.style.display = "none";
+                }
+            });
+        });
+    });
+}
